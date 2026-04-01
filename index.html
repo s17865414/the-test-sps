@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>School Admission Form</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background:#f2f2f2;
+margin:0;
+padding:0;
+}
+
+.container{
+width:500px;
+margin:40px auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+text-align:center;
+color:#2c3e50;
+}
+
+.contact{
+text-align:center;
+margin-bottom:20px;
+font-weight:bold;
+color:#e74c3c;
+}
+
+label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+input, select, textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:10px;
+margin-top:20px;
+background:#27ae60;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#219150;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>School Admission Form</h1>
+
+<div class="contact">
+For Admission Contact: 03440958233
+</div>
+
+<form>
+
+<label>Student Name</label>
+<input type="text" placeholder="Enter student name" required>
+
+<label>Father Name</label>
+<input type="text" placeholder="Enter father name" required>
+
+<label>Date of Birth</label>
+<input type="date" required>
+
+<label>Class</label>
+<select required>
+<option value="">Select Class</option>
+<option>Nursery</option>
+<option>KG</option>
+<option>Class 1</option>
+<option>Class 2</option>
+<option>Class 3</option>
+<option>Class 4</option>
+<option>Class 5</option>
+<option>Class 6</option>
+<option>Class 7</option>
+<option>Class 8</option>
+<option>Class 9</option>
+<option>Class 10</option>
+</select>
+
+<label>Address</label>
+<textarea placeholder="Enter address"></textarea>
+
+<label>Parent Phone Number</label>
+<input type="tel" placeholder="Enter phone number">
+
+<button type="submit">Submit Admission Form</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
